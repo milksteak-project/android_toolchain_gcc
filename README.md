@@ -11,16 +11,12 @@ using 10.8 to ensure compatibility with Android's minimum supported hosts.
 Prerequisites
 -------------
 
-* [Android GCC Repository](http://source.android.com/source/downloading.html)
-    * Check out the branch `gcc`
+* [Milksteak GCC Repository](https://github.com/milksteak-project/android_toolchain_gcc_gcc-4.9)
+    * Check out the branch `milksteak-0.01a1-ndk`
 
-      ```bash
-      repo init -u https://android.googlesource.com/platform/manifest -b gcc
-
-      # Googlers, use
-      repo init -u \
-          persistent-https://android.git.corp.google.com/platform/manifest \
-          -b gcc
+      ```
+      repo init -u https://github.com/milksteak-project/android_platform_manifest_gcc -b milksteak-0.01a1-ndk
+      repo sync
       ```
 
 * Additional Linux Dependencies (available from apt):
