@@ -1,3 +1,0 @@
-MULTILIB_OPTIONS = mips32r2/mips32r6
-MULTILIB_DIRNAMES = mips-r2 mips-r6
-MULTILIB_OSDIRNAMES = ../libr2 ../libr6
